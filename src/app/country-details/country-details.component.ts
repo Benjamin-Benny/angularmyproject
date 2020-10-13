@@ -55,6 +55,7 @@ export class CountryDetailsComponent implements OnInit {
   getCases(date: string, country: CountryDetails[]): CountryDetails{
       for(let i=0; i<country.length; i++){
         this.country1 = country[i]; 
+        console.log((this.country1.Date)); 
         if(this.country1.Date==date){
           return this.country1;
         }
