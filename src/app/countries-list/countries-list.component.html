@@ -1,0 +1,7 @@
+<h1 class="title">{{title}}</h1>
+
+ <mat-selection-list #shoes [multiple]="false">
+    <mat-list-option routerLink="/Country/{{country.Country}}" *ngFor="let country of countries" [value]="shoe">
+      {{country.Country}}
+    </mat-list-option>
+  </mat-selection-list>

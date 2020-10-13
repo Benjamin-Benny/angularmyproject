@@ -1,0 +1,15 @@
+.anchor{
+    color: blue;
+    display: block;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+.title {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+body{
+    text-align: center;
+}
